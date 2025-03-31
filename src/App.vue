@@ -4,8 +4,8 @@ import { RouterView, RouterLink } from 'vue-router';
 
 <template>
   <nav>
-    <RouterLink to="`${import.meta.env.BASE_URL}`">Игра</RouterLink>
-    <RouterLink to="`${import.meta.env.BASE_URL}leaderboard`">Лидерборд</RouterLink>
+    <RouterLink to="/">Игра</RouterLink>
+    <RouterLink to="/leaderboard">Лидерборд</RouterLink>
   </nav>
   <RouterView />
 </template>
